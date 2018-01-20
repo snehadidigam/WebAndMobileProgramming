@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="style.css" type="text/css" rel="stylesheet">  <!--Location of the style sheet-->
+
+</head>
+
+<body>
+
+<ul id="nav-bar"> <!-- used to create navigation bar on google home page-->
+    <li><a href="#" class="nav-bar-opacity">Gmail</a></li>
+    <li><a href="#" class="nav-bar-opacity">Images</a></li>
+    <li><a href="#"><div id="menu-icon" class="nav-bar-opacity"></div></a></li>
+    <!-- Below is where we have added google notification bell icon-->
+    <li><a href="#"><div id="notification-icon" class="nav-bar-opacity"><span><img
+            src="https://cdn3.iconfinder.com/data/icons/time/100/alarm_bell_1-512.png" width="100%"></span></div></a></li>
+    <!-- Below code is used to diplay the image of the google account holder -->
+    <li><a href="#" id="user-icon"><div class="nav-bar-opacity"><img class="profile_img" src="https://lh3.googleusercontent.com/-OwerYJZ5YyU/AAAAAAAAAAI/AAAAAAAAAAA/ACSILjVIljILTmbbT6q7r14Uk5wKXHzTpA/s32-c-mo/photo.jpg" width="100%"></div></a></li>
+</ul>
+
+<!-- we create a container class that holds google logo, search box and most visited websites -->
+
+<div class="container">
+    <div class="main-content">
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div id="search-bar">
+            <input type="text" name="search">
+            <a href="#" id="speech-link"><img src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365" alt="Speech icon"></a>
+        </div>
+    </div>
+    <!-- Used Grid concept to create a wrapper class and box in which all mostly viewed websites are held at-->
+
+    <div class="wrapper">
+        <div class="box a"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+        <div class="box b"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+        <div class="box c"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+        <div class="box d"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+        <div class="box e"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+        <div class="box f"><img src="https://i.ytimg.com/vi/HMnl5Y1TOjc/maxresdefault.jpg" alt="YouTube Channel" width="150%"></div>
+    </div>
+</div>
+</body>
+</html>
