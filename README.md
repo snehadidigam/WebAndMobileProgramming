@@ -2,7 +2,7 @@
 
 InClassAssignment 1
 
-Source & Documentation: https://github.com/vmanvitha3/WebAndMobileProgramming/tree/master/Source
+Source & Documentation: https://github.com/vmanvitha3/WebAndMobileProgramming/tree/master/InClass1
 
 InClassAssignment 2 
 
