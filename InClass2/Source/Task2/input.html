@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+TODO:
+1.Enter your name in h1 and designation in h3
+2.Replace all the placeholder images with sui table images of the same size reflecting you and your projects.Feel free to use the sample images provided
+3.Replace the content of headings App1,App2,App3,App4 with suitable headings of your projects & provide their github links in the corresponding links
+4.Make all the elements in the page responsive & align its content as shown in the output sample with the aforementioned using bootstrap
+-->
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manvitha Vaduguru</title>        <!--title of the page-->
+
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+
+<div class="container" >    <!--To get container around the element-->
+    <div class="row">
+        <div class="col-2"> <!--results in a container of size 2 out of size 12 in a row-->
+            <img src="Images/bean.jpg">
+        </div>
+        <div class="col-10 end">    <!--results in a container of size 10 out of size 12 in a row to the end-->
+            <h1 class="right">Manvitha Vaduguru</h1>
+            <h3 class="right1">Front-End Developer</h3>
+        </div>
+    </div>
+    <div class="row">
+        <hr>    <!--results in a line-->
+    </div>
+    <div class="row">
+        <div class="LeftReferenceBox"> <!--Results in a empty container with assigned styling and text-->
+            <div class = "one"></div>
+            <div class = "two"></div>
+            <div class="four">BCBBBB</div>
+            <div class="five">747704</div>
+        </div>
+        <img src="Images/Image.png"/>
+    </div>
+    <div class="row featurebox">
+        <h2>Featured Work</h2>
+    </div>
+
+    <div class="wrapper">   <!--To group elements by keeping them together in the same row-->
+        <div class="col-4 Appify">  /*It creates an equal width columns of size 4*/
+            <img src="Images/app1.png">
+            <h3>APPIFY</h3>
+            <a href="https://github.com/udacity/Appify/" class="linkage">https://github.com/udacity/Appify/</a>
+        </div>
+        <div class="col-4 Sunflower">  <!--It creates an equal width columns of size 4*/-->
+            <img src="Images/app2.png">
+            <h3>SUNFLOWER</h3>
+            <a href="https://github.com/udacity/Sunflower/" class="linkage">https://github.com/udacity/Sunflower//</a>
+        </div>
+        <div class="col-4 Bokeh end">   <!--It creates an equal width columns of size 4*/-->
+            <img src="Images/app3.png">
+            <h3>BOKEH</h3>
+            <a href="https://github.com/udacity/Bokeh/" class="linkage">https://github.com/udacity/Bokeh/</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>
