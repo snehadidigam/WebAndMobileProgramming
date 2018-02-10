@@ -1,6 +1,7 @@
 // Rock Paper Scissors Game
 
 //prompt allows users enter input in a dialog box
+alert("Game Time")
 var playerChoice = prompt("What is your choice?\n Rock, Paper or Scissors");
 
 if(playerChoice){   // If player enters one of the given choices
@@ -29,7 +30,7 @@ else if(computerChoice == 2){
 document.write("<p>Computer Choice: "+computerChocie+"</p>");
 
 var results = compare(playerChoice,computerChocie); //store result after comparing computer and user choices
-
+alert(results);
 document.write("<p> "+results+"</p>");
 
 //function to compare computer and user choices
