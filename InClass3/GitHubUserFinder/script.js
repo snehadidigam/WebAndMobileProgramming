@@ -10,9 +10,9 @@ function getGithubInfo(user) {
 function showUser(user) {
 
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
-    $('h2').append("UserName: "+user.name);
+    $('h2').append("UserName: "+user.name+"\n");
     var imgtag= '<img src="'+user.avatar_url+'">';
-    $('.avatar').append(imgtag);
+    $('.pic').append(imgtag);
     $('.information').append("Id: "+user.id);
     $('.ref').append("Link to Profile:"+user.url);
     //$('.ref').append("Link to profile:" +'<a href="'+user.url+'">Click here</a>');
@@ -37,6 +37,7 @@ $(document).ready(function(){
             response = getGithubInfo(username);
             //if the response is successful show the user's details
             if (response.status == 200) {
+                showUser(JSON.parse(response.responseText));
                 showUser(JSON.parse(response.responseText));
                 //else display suitable message
             } else {
